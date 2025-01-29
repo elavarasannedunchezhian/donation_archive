@@ -1,0 +1,20 @@
+{
+    "appName": "Dorise Donation",
+    "descriptipn": "Dorise Donation app developed by Novus Global",
+    "items": [
+        {
+            "version": "2.0.0",
+            "shortVersion": 1,
+            "changes": [
+                {
+                    "type": "auto update feature",
+                    "message": "Fix bug #1"
+                }
+            ],
+            "date": "2025-01-29",
+            "mandatory": true,
+            "url": "https://dev.azure.com/novusglobal/_git/Dorise%202%20Donation?path=/dist/1/2.0.0%2B1-windows",
+            "platform": "windows"
+        }
+    ]
+}
