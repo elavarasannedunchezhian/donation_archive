@@ -4,16 +4,16 @@
     "items": [
         {
             "version": "2.0.0",
-            "shortVersion": 1,
+            "shortVersion": 2,
             "changes": [
                 {
-                    "type": "auto update feature",
-                    "message": "Fix bug #1"
+                    "type": "splash screen color issue fixed",
+                    "message": "Fix bug #2"
                 }
             ],
             "date": "2025-01-29",
             "mandatory": true,
-            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/1/2.0.0%2B1-windows",
+            "url": "https://dev.azure.com/novusglobal/_git/Dorise%202%20Donation?path=/dist/2/2.0.0%2B2-windows",
             "platform": "windows"
         }
     ]
