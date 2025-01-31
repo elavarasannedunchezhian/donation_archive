@@ -7,11 +7,11 @@
             "shortVersion": 2,
             "changes": [
                 {
-                    "type": "splash screen color issue fixed",
+                    "type": "Desktop update widget issue fixed",
                     "message": "Fix bug #2"
                 }
             ],
-            "date": "2025-01-29",
+            "date": "2025-01-31",
             "mandatory": true,
             "url": "https://dev.azure.com/novusglobal/_git/Dorise%202%20Donation?path=/dist/2/2.0.0%2B2-windows",
             "platform": "windows"
