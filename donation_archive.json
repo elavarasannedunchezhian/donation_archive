@@ -4,16 +4,16 @@
     "items": [
         {
             "version": "2.0.0",
-            "shortVersion": 3,
+            "shortVersion": 4,
             "changes": [
                 {
-                    "type": "Color change to check updates",
-                    "message": "Fix bug #3"
+                    "type": "Updated to OG version",
+                    "message": "Fix bug #4"
                 }
             ],
             "date": "2025-01-31",
             "mandatory": true,
-            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/3/2.0.0%2B3-windows",
+            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/4/2.0.0%2B4-windows",
             "platform": "windows"
         }
     ]
