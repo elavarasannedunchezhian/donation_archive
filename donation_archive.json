@@ -4,16 +4,16 @@
     "items": [
         {
             "version": "2.0.0",
-            "shortVersion": 2,
+            "shortVersion": 3,
             "changes": [
                 {
-                    "type": "Desktop update widget issue fixed",
-                    "message": "Fix bug #2"
+                    "type": "Color change to check updates",
+                    "message": "Fix bug #3"
                 }
             ],
             "date": "2025-01-31",
             "mandatory": true,
-            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/2/2.0.0%2B2-windows",
+            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/3/2.0.0%2B3-windows",
             "platform": "windows"
         }
     ]
