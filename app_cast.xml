@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+         <title>auto_updater_example</title>
+        <description>Most recent updates to auto_updater_example</description>
+        <language>en</language>
+         <item>
+            <title>Version 1.0.1</title>
+            <pubDate>Mon, 03 Feb 2025 01:42:00 +0000</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/1.0.0%2B2-windows/auto_update_demo.exe" 
+                        sparkle:version="1.0.1" 
+                        sparkle:os="windows"
+                        length="0" 
+                        type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
