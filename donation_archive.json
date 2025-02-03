@@ -12,7 +12,7 @@
                 }
             ],
             "date": "2025-01-31",
-            "mandatory": true,
+            "mandatory": false,
             "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/4/2.0.0%2B4-windows",
             "platform": "windows"
         }
