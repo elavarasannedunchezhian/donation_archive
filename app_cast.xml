@@ -10,7 +10,6 @@
             <enclosure url="https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/1.0.0%2B2-windows/auto_update_demo.exe" 
                         sparkle:version="1.0.1" 
                         sparkle:os="windows"
-                        length="0" 
                         type="application/octet-stream" />
         </item>
     </channel>
