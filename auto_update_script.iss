@@ -35,6 +35,7 @@ OutputDir=C:\Users\ElavarasanNedunchezh\Desktop\DGR V2\donation_archive
 OutputBaseFilename=auto_update
 SolidCompression=yes
 WizardStyle=modern
+disableStartupPrompt=yes
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -56,5 +57,5 @@ Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\{#MyAppExeName}"; Parameters: "/SILENT /SP- /SUPPRESSMSGBOXES /NOICONS /NORESTART"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
