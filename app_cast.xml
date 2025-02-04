@@ -6,12 +6,12 @@
         <language>en</language>
          <item>
             <title>Version 1.0.1</title>
-            <pubDate>Mon, 03 Feb 2025 01:42:00 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/1.0.0%2B2-windows/auto_update_demo.exe" 
-                        sparkle:version="1.0.1" 
-                        sparkle:os="windows"
-                        length="0" 
-                        type="application/octet-stream" />
+            <sparkle:version>1.0.1</sparkle:version>
+            <pubDate>Mon, 03 Feb 2025 12:00:00 +0100</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/auto_update.exe"
+                sparkle:os="windows"
+                length="0" 
+                type="application/octet-stream" />
         </item>
     </channel>
 </rss>
