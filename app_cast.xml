@@ -13,5 +13,14 @@
                 length="0" 
                 type="application/octet-stream" />
         </item>
+        <item>
+            <title>Version 1.0.1</title>
+            <sparkle:version>1.0.1</sparkle:version>
+            <pubDate>Mon, 05 Feb 2025 12:13:00 +0100</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/flutter_upgrade.apk"
+                sparkle:os="android"
+                length="0" 
+                type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
