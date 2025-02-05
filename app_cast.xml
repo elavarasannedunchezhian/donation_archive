@@ -5,8 +5,8 @@
         <description>Most recent updates</description>
         <language>en</language>
          <item>
-            <title>Version 1.0.0+2</title>
-            <sparkle:version>1.0.0+2</sparkle:version>
+            <title>Version 1.0.2</title>
+            <sparkle:version>1.0.2</sparkle:version>
             <pubDate>Mon, 05 Feb 2025 12:13:00 +0100</pubDate>
             <enclosure url="https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/2/flutter_upgrader-1.0.0%2B2-windows/flutter_upgrader.exe"
                 sparkle:os="windows"
