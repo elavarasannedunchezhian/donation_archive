@@ -11,9 +11,9 @@
                     "message": "Fix bug #5"
                 }
             ],
-            "date": "2025-02-08",
+            "date": "2025-02-28",
             "mandatory": true,
-            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/3/2.0.0%2B3-windows",
+            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/dist/3/2.0.2%2B3-windows",
             "platform": "windows"
         }
     ]
