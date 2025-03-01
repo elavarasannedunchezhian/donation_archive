@@ -3,8 +3,8 @@
     "descriptipn": "Dorise Donation app developed by Novus Global",
     "items": [
         {
-            "version": "2.0.2",
-            "shortVersion": 3,
+            "version": "2.0.1",
+            "shortVersion": 2,
             "changes": [
                 {
                     "type": "Badge Reader implementation done",
