@@ -1,0 +1,20 @@
+{
+    "appName": "Dorise Donation",
+    "descriptipn": "Dorise Donation app developed by Novus Global",
+    "items": [
+        {
+            "version": "1.0.2",
+            "shortVersion": 2,
+            "changes": [
+                {
+                    "type": "Badge Reader implementation done",
+                    "message": "Fix bug #5"
+                }
+            ],
+            "date": "2025-04-23",
+            "mandatory": true,
+            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/TestLog-x86_64-1.0.2+2-Installer.exe",
+            "platform": "windows"
+        }
+    ]
+}
