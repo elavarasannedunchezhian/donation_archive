@@ -55,3 +55,8 @@ Name: "{autodesktop}\flutter_windows_service"; Filename: "{app}\flutter_windows_
 [Run]
 Filename: "{app}\flutter_windows_service.exe"; Description: "{cm:LaunchProgram,{#StringChange('flutter_windows_service', '&', '&&')}}"; Flags: nowait postinstall runasoriginaluser
 
+[UninstallRun]
+Filename: "{app}\uninstall.exe";
+
+[UninstallDelete]
+Type: filesandordirs; Name: "{app}"
