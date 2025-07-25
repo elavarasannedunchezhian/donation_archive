@@ -2,6 +2,6 @@
     "appName": "flutter_windows_service",
     "version": "1.0.1",
     "buildNumber": 1,
-    "promptUser": false,
+    "promptUser": truee\,
     "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/FlutterWindowsService-x86_64-1.0.1+1-Installer.exe"
 }
