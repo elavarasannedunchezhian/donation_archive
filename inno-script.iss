@@ -38,12 +38,11 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
 
 [Files]
+Source: "D:\Flutter\flutter_windows_service\build\windows\x64\runner\Release\dart_ipc_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Flutter\flutter_windows_service\build\windows\x64\runner\Release\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "D:\Flutter\flutter_windows_service\build\windows\x64\runner\Release\flutter_windows.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Flutter\flutter_windows_service\build\windows\x64\runner\Release\flutter_windows_service.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Flutter\flutter_windows_service\build\windows\x64\runner\Release\install.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Flutter\flutter_windows_service\build\windows\x64\runner\Release\service.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Flutter\flutter_windows_service\build\windows\x64\runner\Release\uninstall.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\nelav\AppData\Local\Temp\FlutterWindowsServiceInstaller\Release\WindowsServiceDLL64.dll"; DestDir: "{app}"; DestName: "WindowsServiceDLL64.dll"; Flags: ignoreversion
 Source: "C:\Users\nelav\AppData\Local\Temp\FlutterWindowsServiceInstaller\Release\msvcp140.dll"; DestDir: "{app}"; DestName: "msvcp140.dll"; Flags: ignoreversion
 Source: "C:\Users\nelav\AppData\Local\Temp\FlutterWindowsServiceInstaller\Release\vcruntime140.dll"; DestDir: "{app}"; DestName: "vcruntime140.dll"; Flags: ignoreversion
 Source: "C:\Users\nelav\AppData\Local\Temp\FlutterWindowsServiceInstaller\Release\vcruntime140_1.dll"; DestDir: "{app}"; DestName: "vcruntime140_1.dll"; Flags: ignoreversion
@@ -53,10 +52,5 @@ Name: "{autoprograms}\flutter_windows_service"; Filename: "{app}\flutter_windows
 Name: "{autodesktop}\flutter_windows_service"; Filename: "{app}\flutter_windows_service.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\flutter_windows_service.exe"; Description: "{cm:LaunchProgram,{#StringChange('flutter_windows_service', '&', '&&')}}"; Flags: nowait postinstall runasoriginaluser
+Filename: "{app}\flutter_windows_service.exe"; Description: "{cm:LaunchProgram,{#StringChange('flutter_windows_service', '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
-[UninstallRun]
-Filename: "{app}\uninstall.exe";
-
-[UninstallDelete]
-Type: filesandordirs; Name: "{app}"
