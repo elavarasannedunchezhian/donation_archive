@@ -1,7 +1,24 @@
 {
     "appName": "flutter_windows_service",
-    "version": "1.0.1",
-    "buildNumber": 1,
-    "promptUser": true,
-    "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/FlutterWindowsService-x86_64-1.0.1+1-Installer.exe"
+    "description": "A new Flutter project.",
+    "updates": [
+        {
+            "version": "1.0.1",
+            "shortVersion": 1,
+            "changes": [],
+            "releaseDate": "2025-08-18",
+            "mandatory": true,
+            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/FlutterWindowsService-x86_64-1.0.1+1-Installer.exe",
+            "stores": []
+        },
+        {
+            "version": "1.0.2",
+            "shortVersion": 2,
+            "changes": [],
+            "releaseDate": "2025-08-18",
+            "mandatory": true,
+            "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/FlutterWindowsService-x86_64-1.0.2+2-Installer.exe",
+            "stores": []
+        }
+    ]
 }
