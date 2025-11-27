@@ -28,36 +28,20 @@
                 "releaseDate": "2025-08-18",
                 "mandatory": true,
                 "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/Dorise2Donation-x86_64-2.0.5+5-Installer.exe",
-                "stores": [
+                "stores": []
+            },
+            {
+                "version": "2.0.6",
+                "shortVersion": 6,
+                "changes": [
                     {
-                        "id": 1,
-                        "updatedOn": "2025-08-20T10:11:05.562Z",
-                        "code": "07",
-                        "name": "Maple Shade",
-                        "shortName": "Maple",
-                        "addressline1": "adadadada",
-                        "addressline2": "xyxyxyxyxy",
-                        "email": "mapleshade@gmail.com",
-                        "phone": "9876453210",
-                        "storeSizeSqM": 1,
-                        "active": true,
-                        "timezone": ""
-                    },
-                    {
-                        "id": 2,
-                        "updatedOn": "2025-06-13T10:35:38.455Z",
-                        "code": "06",
-                        "name": "Test store",
-                        "shortName": "Test store",
-                        "addressline1": "abcd",
-                        "addressline2": "lane 2",
-                        "email": "abc123@gmail.com",
-                        "phone": "7868767676",
-                        "storeSizeSqM": 106,
-                        "active": true,
-                        "timezone": "Africa/Accra"
+                        "message": "fix the issue of the service not starting"
                     }
-                ]
+                ],
+                "releaseDate": "2025-11-27",
+                "mandatory": true,
+                "url": "https://raw.githubusercontent.com/elavarasannedunchezhian/donation_archive/main/Dorise2Donation-x86_64-2.0.6+6-Installer.exe",
+                "stores": []
             }
         ]
     }
